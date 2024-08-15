@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author      : LJQ
 # @Time        : 2023/12/7 19:33
-# @Version     : Python 3.6.4
+# @Version     : Python 3.12.2
 import os
 import random
 

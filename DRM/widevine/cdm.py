@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author      : LJQ
 # @Time        : 2023/11/23 11:28
-# @Version     : Python 3.6.4
+# @Version     : Python 3.12.2
 """内容解密模块(Content Decryption Modules)
 
 通过设备数据构造请求数据,请求播放许可链接

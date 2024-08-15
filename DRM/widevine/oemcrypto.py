@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author      : LJQ
 # @Time        : 2023/12/8 11:40
-# @Version     : Python 3.6.4
+# @Version     : Python 3.12.2
 """OEMCrypto(DRM秘钥解密模块)
 
 验证发往和来自许可证服务器的消息的真实性

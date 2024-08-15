@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author      : LJQ
 # @Time        : 2023/11/23 11:27
-# @Version     : Python 3.6.4
+# @Version     : Python 3.12.2
 """
 Widevine是Google开发的专有数字版权管理(DRM) 系统。
 它为媒体提供内容保护。

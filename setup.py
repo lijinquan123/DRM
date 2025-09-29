@@ -2,19 +2,14 @@
 # @Author      : LJQ
 # @Time        : 2023/12/8 17:01
 # @Version     : Python 3.12.2
-import json
-from pathlib import Path
-
 from setuptools import find_packages, setup
 
-VERSION_PATH = Path(__file__).parent / 'version.json'
-version, description = json.loads(VERSION_PATH.read_text("utf-8"))
-__version__ = f'2.0.{int(version)}'
+import DRM
 
 setup(
     name='DRM',
-    version=__version__,
-    url='',
+    version=DRM.__version__,
+    url='https://github.com/lijinquan123/DRM',
     license='None',
     author='LJQ',
     install_requires=[
@@ -24,6 +19,7 @@ setup(
     description='Digital rights management, better for Python3.12',
     long_description='parse DRM keys',
     packages=find_packages(),
+    package_data={"DRM": ["binaries/*"]},
     platforms='any',
     classifiers=[
         'Development Status :: 4 - Beta',
